@@ -1,59 +1,42 @@
-#!/bin/bash
-# ==========================================================
-#            🔹 OPERATING SYSTEM LAB PROGRAMS 🔹
-# ==========================================================
-# Author   : Hitendra Singh Panwar
-# Email    : hitendrasinghpanwar31@gmail.com
-# GitHub   : https://github.com/Hitendra-Cyber
-# ==========================================================
+# 🧠 Operating System Lab – C Programs  
 
-echo "==============================================="
-echo "   🧠  Operating System Lab - C Programs"
-echo "   Works on both Linux and Windows environments"
-echo "==============================================="
+**Author:** [Hitendra Singh Panwar](https://github.com/Hitendra-Cyber)  
+**Email:** hitendrasinghpanwar31@gmail.com  
 
-echo ""
-echo "📘 DESCRIPTION:"
-echo "This repository contains simulation programs for major Operating System concepts."
-echo "All programs are written in C and can be compiled on Linux or Windows using GCC."
-echo ""
+---
 
-echo "📂 CONTENTS:"
-echo "1️⃣ CPU Scheduling Algorithms  → FCFS, SJF, Round Robin, Priority"
-echo "2️⃣ File Allocation Strategies  → Sequential, Indexed, Linked"
-echo "3️⃣ Multi-Level Queue Scheduling (System/User Queues)"
-echo "4️⃣ Memory Management           → MVT, MFT"
-echo "5️⃣ Contiguous Allocation       → First-Fit, Best-Fit, Worst-Fit"
-echo "6️⃣ Banker's Algorithm          → Deadlock Avoidance"
-echo "7️⃣ Disk Scheduling             → FCFS, SSTF"
-echo "8️⃣ Producer-Consumer Problem   → Using Semaphores (no pthread)"
-echo "9️⃣ Dining Philosophers Problem → Synchronization Example"
-echo ""
+## 📘 Description  
+This repository contains simulation programs for major Operating System concepts.  
+All programs are written in **C** and can be compiled on **Linux** or **Windows** using GCC.  
 
-echo "⚙️  HOW TO COMPILE AND RUN:"
-echo ""
-echo "🔸 On Linux/Mac:"
-echo "     gcc program_name.c -o output"
-echo "     ./output"
-echo ""
-echo "🔸 On Windows (with MinGW or Code::Blocks):"
-echo "     gcc program_name.c -o output.exe"
-echo "     output.exe"
-echo ""
+---
 
-echo "🎯 LEARNING GOALS:"
-echo " - Understand core OS mechanisms."
-echo " - Simulate CPU scheduling, memory & file management."
-echo " - Strengthen C programming and problem-solving."
-echo " - Learn version control with Git & GitHub."
-echo ""
+## 📂 Contents  
 
-echo "🚀 FUTURE PLANS:"
-echo " - Add visualization for scheduling algorithms."
-echo " - Include detailed theory and explanations."
-echo " - Add real system-level demos (optional)."
-echo ""
+| No. | Topic | Description |
+|-----|--------|-------------|
+| 1️⃣ | **CPU Scheduling Algorithms** | FCFS, SJF, Round Robin, Priority |
+| 2️⃣ | **File Allocation Strategies** | Sequential, Indexed, Linked |
+| 3️⃣ | **Multi-Level Queue Scheduling** | System / User Process Queues |
+| 4️⃣ | **Memory Management** | MVT, MFT |
+| 5️⃣ | **Contiguous Allocation** | First-Fit, Best-Fit, Worst-Fit |
+| 6️⃣ | **Banker's Algorithm** | Deadlock Avoidance |
+| 7️⃣ | **Disk Scheduling** | FCFS, SSTF |
+| 8️⃣ | **Producer-Consumer Problem** | Using Semaphores (no pthread) |
+| 9️⃣ | **Dining Philosophers Problem** | Classic Synchronization Example |
 
-echo "📜 LICENSE:"
-echo "Open-source under the MIT License."
-echo "==============================================="
+---
+
+## ⚙️ How to Compile and Run  
+
+### 🐧 On Linux / macOS
+```bash
+gcc filename.c -o output
+./output
+```
+
+### On Windows (using MinGW or Code::Blocks)
+```bash
+gcc filename.c -o output.exe
+output.exe
+```
