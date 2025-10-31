@@ -4,8 +4,7 @@
 # ==========================================================
 # Author   : Hitendra Singh Panwar
 # Email    : hitendrasinghpanwar31@gmail.com
-# GitHub   : https://github.com/Hitendra-Cyber/Linux-OS-Lab
-# LinkedIn : https://www.linkedin.com/in/hitendra-singh-panwar-780b5332a/
+# GitHub   : https://github.com/Hitendra-Cyber
 # ==========================================================
 
 echo "==============================================="
